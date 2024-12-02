@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Sport</title>
+    <script src="scripts/app.js" defer></script>
+</head>
+<body class="bg-bluebg-700 font-Vazir">
+    <svg class="hidden">
+        <symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+          </symbol>
+          <symbol id="menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </symbol>
+          
+          
+    </svg>
+  <header class="w-full flex flex-col items-center justify-center gap-y-24 mb-32" id="home">
+    <nav class="w-full p-10 flex justify-between items-center text-white text-right xl:text-2xl lg:text-xl">
+        <ul class="flex items-center gap-x-7 lg:visible md:invisible sm:invisible">
+            <p class="font-extrabold lg:text-3xl xl:text-4xl">X.POWER</p>
+            <li><a href="#home">صفحه اصلی</a></li>
+            <li><a href="#store">فروشگاه</a></li>
+            <li><a href="#services">خدمات</a></li>
+            <li><a href="#blogs">بلاگ</a></li>
+            <li><a href="#contact">درباره ما</a></li>
+        </ul>
+        
+        <button href="#" class="bg-bluebg-300 xl:text-xl lg:text-md md:text-lg sm:text-md lg:w-[176px] lg:h-[51px] md:w-[140px] md:h-[48px] sm:w-[140px] sm:h-[51px] rounded">ورود و ثبت نام</button>
+        <div class="lg:hidden menu">
+            <svg class="w-16 h-16 absolute top-10 right-10 sm:w-10 sm:h-10 sm:top-">
+                 <use xlink:href="#menu"></use>
+            </svg>
+        </div>
+        <div class="text-white hidden absolute top-24 right-20 menu-list">
+        <ul class="rounded-sm w-[200px] flex flex-col justify-center items-center gap-y-7 py-5 px-3 text-center bg-bluebg-200">
+            <li class="border-b border-white w-[200px] cursor-pointer hover:bg-bluebg-700"><a href="#home">صفحه اصلی</a></li>
+            <li class="border-b border-white w-[200px] cursor-pointer hover:bg-bluebg-700"><a href="#store">فروشگاه</a></li>
+            <li class="border-b border-white w-[200px] cursor-pointer hover:bg-bluebg-700"><a href="#services">خدمات</a></li>
+            <li class="border-b border-white w-[200px] cursor-pointer hover:bg-bluebg-700"><a href="#blogs">بلاگ</a></li>
+            <li class="border-b border-white w-[200px] cursor-pointer hover:bg-bluebg-700"><a href="contact">درباره ما</a></li>
+        </ul>
+       </div>
+    </nav> 
+  <div class="w-full mb-10 flex lg:flex-row-reverse xl:gap-x-16  lg:gap-x-6 sm:flex-col justify-center items-center">
+        <div class="xl:w-[574.71px] xl:h-[574.71px] lg:w-[450px]  lg:h-[450px] sm:w-[450px] sm:h-[450px] bg-bluebg-100 rounded-full">
+            <img src="images/header.png" alt="boxer" class=" xl:w-[704.36px] xl:h-[641.31px] lg:w-[550px] lg:h-[490px] sm:w-[550px] sm:h-[490px] xl:-translate-y-20 lg:-translate-y-12 sm:-translate-y-12">
+        </div>
+        <div class="w-[50%] h-96"> 
+             <h2 class="xl:text-6xl lg:text-3xl md:text-3xl sm:text-2xl text-right font-extrabold  text-white mb-[9px]">هر آنچه برای رسیدن به اندام ایده آل نیاز دارید</h2>
+             <p class="xl:text-3xl lg:text-xl md:text-xl sm:text-lg font-normal text-right text-white mb-4">
+             تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی
+             </p>
+             <div class="py-5 xl:pl-1 lg:px-2 m-2 sm:px-10 relative leading-9 xl:text-2xl lg:text-xl md:text-lg sm:text-md font-normal text-white/[55%] text-right border border-white/[21%] bg-bluebg-900 rounded-xl mb-8 flex justify-center items-center">
+                با بیش از ۲۵ سال تجربه در ورزش بدنسازی و تناسب اندام تصمیم گرفتیم دانش و تجربه خود را در اختیار همه علاقه‌مندان به این رشته ورزشی جذاب قرار دهیم.
+             </div>
+             <div class="flex justify-center text-white xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-center">
+                <div class="border-l border-white lg:pl-8">
+                    <p>۲۰۰۰+ 
+                        </p>
+                    <p class="font-semibold xl:text-2xl lg:text-xl md:text-lg sm:text-md text-bluebg-200">کاربر فعال</p>
+                </div>
+                <div class="border-l border-white lg:px-8">
+                    <p>۲۵۰+ 
+                    </p>
+                    <p class="font-semibold xl:text-2xl lg:text-xl md:text-lg sm:text-md text-bluebg-200">مکمل بدنسازی</p>
+                </div>
+                <div class="lg:pr-8">
+                    <p >۱۰۰۰+
+                        </p>
+                    <p class="font-semibold xl:text-2xl lg:text-xl md:text-lg sm:text-md text-bluebg-200">رژیم غذایی آنلاین</p>
+                </div>
+             </div>
+        </div>
+    </div>
+    <div class="bg-bluebg-100 w-[99%]  py-6 -rotate-3 text-center text-white xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg px-2">همه می خواهند بدنساز باشند اما کسی نمی خواهد وزنه های سنگین بلند کند!
+    </div>
+  </header>
+
+  <main class="w-full sm:mt-96 lg:mt-32">
+    <!-- -------- Services -----------  -->
+     <section class="w-full h-screen flex flex-col justify-center items-center" id="services"> 
+        <h2 class="text-bluebg-900 text-3xl text-right font-semibold mb-[14px]">خدمات ما</h2>
+        <p class="text-white text-4xl font-bold text-right mb-16">ما در ایکس پاور چه خدماتی ارائه میکنیم؟ </p>
+        <div class="w-[94%] grid lg:grid-cols-4 sm:grid-cols-2 gap-4"> 
+            <div class="w-[94%] h-[425px] flex flex-col justify-center items-center gap-y-8 border border-white/[10%]  rounded-xl bg-bluebg-900 hover:bg-bluebg-100">
+                <img src="images/icons/chronometer.png" alt="" class="w-16 h-16">
+                <h3 class="xl:text-2xl lg:text-xl  sm:text-lg text-right font-semibold text-white">برنامه تمرینی</h3>
+                <p class="w-2/3 xl:text-md lg:text-sm sm:text-base font-normal text-center text-white leading-8">ارائه بهترین برنامه‌های تمرینی همراه با توضیحات کامل ویژه همه سطوح ورزشی</p>
+                <div class="flex justify-center items-center gap-x-2"><p class="lg:text-md sm:text-sm font-normal text-center text-white leading-8 cursor-pointer">ادامه مطلب</p> <svg class="w-6 h-6 stroke-white cursor-pointer">
+                    <use xlink:href="#arrow-left"></use>
+                </svg> </div>
+            </div>
+            <div class="w-[94%] h-[425px] flex flex-col justify-center items-center gap-y-8 border border-white/[10%]  rounded-xl bg-bluebg-900 hover:bg-bluebg-100">
+                <img src="images/icons/chronometer.png" alt="" class="w-16 h-16">
+                <h3 class="xl:text-2xl lg:text-xl  sm:text-lg text-right font-semibold text-white">رژیم غذایی</h3>
+                <p class="w-2/3 xl:text-md lg:text-sm sm:text-base font-normal text-center text-white leading-8">ارائه آنلاین رژیمهای غذایی ویژه ورزشکاران و افرادی که دوستدار سلامتی هستند</p>
+                <div class="flex justify-center items-center gap-x-2 "><p class="lg:text-md sm:text-sm font-normal text-center text-white cursor-pointer leading-8">ادامه مطلب</p> <svg class="w-6 h-6 stroke-white cursor-pointer">
+                    <use xlink:href="#arrow-left"></use>
+                </svg> </div>
+            </div>
+            <div class="w-[94%] h-[425px] flex flex-col justify-center items-center gap-y-8 border border-white/[10%]  rounded-xl bg-bluebg-900 hover:bg-bluebg-100">
+                <img src="images/icons/chronometer.png" alt="" class="w-16 h-16">
+                <h3 class="xl:text-2xl lg:text-xl  sm:text-lg  text-right font-semibold text-white">برنامه تمرینی</h3>
+                <p class="w-2/3 xl:text-md lg:text-sm sm:text-base font-normal text-center text-white leading-8">ارائه بهترین برنامه‌های تمرینی همراه با توضیحات کامل ویژه همه سطوح ورزشی</p>
+                <div class="flex justify-center items-center gap-x-2"><p class="lg:text-md sm:text-sm font-normal text-center text-white leading-8 cursor-pointer">ادامه مطلب</p> <svg class="w-6 h-6 stroke-white cursor-pointer">
+                    <use xlink:href="#arrow-left"></use>
+                </svg> </div>
+            </div>
+            <div class="w-[94%] h-[425px] flex flex-col justify-center items-center gap-y-8 border border-white/[10%]  rounded-xl bg-bluebg-900 hover:bg-bluebg-100">
+                <img src="images/icons/chronometer.png" alt="" class="w-16 h-16">
+                <h3 class="xl:text-2xl lg:text-xl  sm:text-lg  text-right font-semibold text-white">مکمل های بدنسازی</h3>
+                <p class="w-2/3 xl:text-md lg:text-sm sm:text-base font-normal text-center text-white leading-8">بررسی انواع مکملهای بدنسازی برای انتخاب بهترین مکمل بدنسازی</p>
+                <div class="flex justify-center items-center gap-x-2"><p class="lg:text-md sm:text-sm font-normal text-center text-white leading-8 cursor-pointer">ادامه مطلب</p> <svg class="w-6 h-6 stroke-white cursor-pointer">
+                    <use xlink:href="#arrow-left"></use>
+                </svg> </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- ------- products ----------  -->
+      <section class="w-full flex flex-col justify-center items-center sm:mt-96 lg:mt-32" id="store"> 
+        <h2 class="text-2xl text-right text-bluebg-900 font-semibold">محصولات</h2>
+        <p class="text-3xl text-right text-white font-bold mt-4 mb-44">جدیدترین محصولات</p>
+        <div class="products w-full h-full flex justify-center items-center gap-x-4">
+            <div class="product w-[297px] h-[297px] product text-white relative bg-bluebg-900 rounded-xl flex flex-col justify-end items-center gap-y-9 pb-9 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-[239px] h-[271px] rounded-xl flex justify-center items-center absolute bottom-36 ">
+                    <img src="images/products/p-1.png" alt="product whey">
+                </div>
+                <div class="hidden rounded-lg bg-white text-bluebg-100 font-semibold text-lg text-right absolute -bottom-4 px-4 py-2" data-pro="1">افزودن به سبد خرید</div>
+                <p class="text-right text-lg font-md">پروتئین وی ژن استار 2270 گرم</p>
+                <div class="flex justify-center items-center gap-x-9 text-lg text-right font-semibold text-white">
+                    <p>قیمت:</p>
+                    <p>۱/۸۰۰/۰۰۰ تومان</p>
+                </div>
+            </div>
+
+            <div class="product w-[297px] h-[297px] text-white relative bg-bluebg-900 rounded-xl flex flex-col justify-end items-center gap-y-9 pb-9 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-[239px] h-[271px]  rounded-xl flex justify-center items-center absolute bottom-36 ">
+                    <img src="images/products/p-2.png" alt="product whey">
+                </div>
+                <div class="hidden rounded-lg bg-white text-bluebg-100 font-semibold text-lg text-right absolute -bottom-4 px-4 py-2">افزودن به سبد خرید</div>
+                <p class="text-right text-lg font-md">پروتئین وی یوروویتال 1000 گرم</p>
+                <div class="flex justify-center items-center gap-x-9 text-lg text-right font-semibold text-white">
+                    <p>قیمت:</p>
+                    <p> تومان۹/۶۰/۰۰۰ </p>
+                </div>
+            </div>
+
+            <div class="product max-lg:hidden w-[297px] h-[297px] text-white relative bg-bluebg-900 rounded-xl flex flex-col justify-end items-center gap-y-9 pb-9 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-[239px] h-[271px]  rounded-xl flex justify-center items-center absolute bottom-36 ">
+                    <img src="images/products/p-3.png" alt="product whey">
+                </div>
+                <div class=" hidden rounded-lg bg-white text-bluebg-100 font-semibold text-lg text-right absolute -bottom-4 py-2 px-4">افزودن به سبد خرید</div>
+                <p class="text-right text-lg font-md">گینر ژن استار 3000 گرم</p>
+                <div class="flex justify-center items-center gap-x-9 text-lg text-right font-semibold text-white">
+                    <p>قیمت:</p>
+                    <p>۱/۸۰۰/۰۰۰ تومان</p>
+                </div>
+            </div>
+
+            <div class="product  max-xl:hidden  w-[297px] h-[297px] text-white relative bg-bluebg-900 rounded-xl flex flex-col justify-end items-center gap-y-9 pb-9 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-[239px] h-[271px]  rounded-xl flex justify-center items-center absolute bottom-36 ">
+                    <img src="images/products/p-1.png" alt="product whey">
+                </div>
+                <div class="hidden rounded-lg bg-white text-bluebg-100 font-semibold text-lg text-right absolute -bottom-4 px-4 py-2">افزودن به سبد خرید</div>
+                <p class="text-right text-lg font-md">دلیشس وی پروتئین کیو ان تی</p>
+                <div class="flex justify-center items-center gap-x-9 text-lg text-right font-semibold text-white">
+                    <p>قیمت:</p>
+                    <p> تومان۳/۱۸۰/۰۰۰</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex gap-x-2 mt-20">
+            <div class="w-4 h-4 rounded-full bg-bluebg-200"></div>
+            <div class="w-4 h-4 rounded-full bg-bluebg-200"></div>
+            <div class="w-4 h-4 rounded-full bg-bluebg-200"></div>
+        </div>
+      </section>
+
+      <!-- --------- exercise -------------  -->
+      <section class="w-full flex justify-center items-center xl:gap-x-20 sm:gap-y-20 mt-32  sm:flex-col xl:flex-row-reverse" id="exercise">
+        <div class="flex justify-end items-center relative z-5">  
+                <div class="w-[143px] h-[161px] absolute top-1/3 left-[400px] rounded-2xl bg-bluebg-200/50">
+
+                    <img src="images/stopwatch.png" alt="stopwatch" class="w-[98px] h-[100px] z-10 absolute -top-8 left-5">
+                    <p class="font-bold text-xl text-center text-white mt-20">برنامه تمرینی کاملااختصاصی</p>
+                </div>
+                <div class="w-[143px] h-[161px] absolute left-20 -bottom-[40px] rounded-2xl  pb-8 bg-bluebg-200/50">
+                        <img src="images/medal.png" alt="medal" class="w-[98px] h-[100px] z-10 absolute -top-8 left-5">
+                        <p class="font-bold text-xl text-center text-white mt-20">زیر نظر بهترین مربی ها</p>
+                </div>
+                <img src="images/exercise.png" alt="exercise" class="rounded-xl w-[475px] h-[606px]">            
+        </div>
+        <div class="flex flex-col justify-center lg:items-start sm:items-center">
+            <p class="font-extrabold text-white xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-right">برنامه تمرینی کاملا اختصاصی...</p>
+            <h2 class="font-extrabold text-white xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-right mb-5">برای شما...</h2>
+            <p class="w-[613px] leading-8 font-normal xl:text-xl lg:text-lg md:text-md sm:text-sm text-justify text-white/60 mb-9">هر کسی با یه هدفی ورزش میکنه، کاهش وزن ،افزایش وزن، بدنسازی، حفظ تناسب اندامش ، آسیب جسمانی خیلیا هم نمیذاره بعضی از حرکات رو انجام بدن ، با ایکس پاور یه برنامه ورزشی کاملا مختص به شرایط خودتون دریافت خواهید کرد.</p>
+            <div class="flex gap-x-7">
+                <button class="text-white font-semibold text-xl px-5 py-[14px] bg-bluebg-100 cursor-pointer">دریافت برنامه تمرینی</button>
+                <div class="text-white flex justify-center items-center gap-x-2">
+                    <p class="font-semibold text-xl text-center cursor-pointer">مشاهده نظر کاربران
+                    </p>
+                    <svg class="w-6 h-6">
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- ------------- blogs --------------  -->
+       <section class="mb-48 mt-32" id="blogs">
+        <div class="w-[92%] mx-auto flex items-center justify-between font-bold text-white text-4xl text-center mb-12"><h3>جدیدترین مقالات</h3>
+         <h4>
+            همه
+        </h4></div>
+         <div class="w-[90%] mx-auto grid xl:grid-cols-3 gap-10 sm:grid-cols-2">
+            <div class=" lg:w-[374px] lg:h-[461px] sm:w-[260px] sm:h-[400px] rounded-xl relative flex flex-col justify-start items-center gap-5 bg-bluebg-900 cursor-pointer hover:bg-bluebg-100">
+               <div class="w-10 h-10 bg-bluebg-100 rounded-md absolute -bottom-[20px] left-[160px] flex justify-center items-center">
+                    <svg class="w-6 h-6">
+                       <use xlink:href="#arrow-left"></use>
+                    </svg>
+               </div>
+            <img src="images/blog/blog-1.png" alt="pic of blog1" class= "lg:w-[374px] lg:h-[247px] sm:w-[320px] sm:h-[190px] rounded-t-xl">
+            <h3 class="text-right lg:text-2xl sm:text-lg font-bold mx-auto text-white">پولدارترین بدنسازهای تاریخ</h3>
+            <p class="text-white text-justify px-4 lg:text-base sm:text-sm font-normal mb-4">صنعت بدنسازی گاهی مرموز به نظر می‌رسد، اگر می‌خواهید بدانید چه افرادی در این صنعت، پول‌های حسابی بدست می‌آورند...</p>
+            </div>
+            <div class="lg:w-[374px] lg:h-[461px] sm:w-[260px] sm:h-[400px] rounded-xl relative flex flex-col justify-start items-center gap-5  bg-bluebg-900 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-10 h-10 bg-bluebg-100 rounded-md absolute -bottom-[20px] left-[160px] flex justify-center items-center">
+                     <svg class="w-6 h-6">
+                        <use xlink:href="#arrow-left"></use>
+                     </svg>
+                </div>
+             <img src="images/blog/blog-2.jfif" alt="pic of blog1" class="lg:w-[374px] lg:h-[247px] sm:w-[320px] sm:h-[190px]  rounded-t-xl">
+             <h3 class="text-right lg:text-2xl sm:text-lg font-bold mx-auto text-white">برنامه تمرینی اینتروال چربی سوزی</h3>
+             <p class="text-white text-justify lg:text-base sm:text-sm px-4 font-normal">تمرینات اینتروال (HIIT) موثرترین روش تمرین برای چربی سوزی و حفظ عضلات است. در ادامه سعی می‌کنم درمورد تمرینات اینتروال بیشتر...</p>
+             </div>
+             <div class="lg:w-[374px] lg:h-[461px] sm:w-[260px] sm:h-[400px] rounded-xl relative flex flex-col justify-start items-center gap-5 bg-bluebg-900 hover:bg-bluebg-100 cursor-pointer">
+                <div class="w-10 h-10 bg-bluebg-100 rounded-md absolute -bottom-[20px] left-[160px] flex justify-center items-center">
+                     <svg class="w-6 h-6">
+                        <use xlink:href="#arrow-left"></use>
+                     </svg>
+                </div>
+             <img src="images/blog/blog-3.jfif" alt="pic of blog1" class="lg:w-[374px] lg:h-[247px] sm:w-[320px] sm:h-[190px] rounded-t-xl">
+             <h3 class="text-right lg:text-2xl sm:text-lg mx-auto font-bold text-white">چقدر مقدار وزنه انتخاب کنم؟</h3>
+             <p class="text-white text-justify px-4 lg:text-base sm:text-sm font-normal">صنعت بدنسازی گاهی مرموز به نظر می‌رسد، اگر می‌خواهید بدانید چه افرادی در این صنعت، پول‌های حسابی بدست می‌آورند با ما همراه باشید.</p>
+             </div>
+                            
+        </div>
+       </section>
+  </main>
+  <footer class="w-full mt-32" id="contact">
+    <div class="w-[83%] h-[120px]  bg-bluebg-900 rounded-t-2xl mx-auto px-10 flex items-center  justify-between">
+        <div class="text-right font-normal lg:text-xl sm:text-md text-white font-Vazir flex xl:flex-row sm:flex-col sm:gap-y-5">
+            <p> شماره تماس : </p>
+            <p>۳۴۵۶ ۲۲۴۵ ۰۲۱</p>
+        </div>
+        <div class="flex xl:flex-row sm:flex-col sm:gap-y-5 gap-x-5">
+            <p class="text-right font-normal lg:text-xl sm:text-md text-white mt-2">ما را در شبکه های اجتماعی دنبال کنید</p>
+            <div class="flex gap-x-[22px] ">
+                <div class="w-[52px] h-[52px] bg-bluebg-200/50 rounded-lg flex justify-center items-center cursor-pointer hover:bg-bluebg-100">
+                    <svg viewBox="-0.5 -0.5 16 16" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" id="Telegram--Streamline-Iconoir" height="22" width="26"><desc>Telegram Streamline Icon: https://streamlinehq.com</desc><path d="M14.3121875 2.1219375 0.6878125 7.5l5.0195 0.7170624999999999m8.604875 -6.095125 -1.7926875 10.756125 -6.8121875 -4.6610000000000005m8.604875 -6.095125L5.7073125000000005 8.217062499999999m0 0v3.9439374999999997l2.329625 -2.3499375000000002" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></svg>
+                </div>
+                <div class="w-[52px] h-[52px] bg-bluebg-200/50 rounded-lg flex justify-center items-center cursor-pointer hover:bg-bluebg-100"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="fill:#ffffff;transform:msFilter"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></div>
+                <div class="w-[52px] h-[52px] bg-bluebg-200/50 rounded-lg flex justify-center items-center cursor-pointer hover:bg-bluebg-100"><svg viewBox="-0.5 -0.5 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="Bubble-Download--Streamline-Iconoir" height="20" width="20"><desc>Bubble Download Streamline Icon: https://streamlinehq.com</desc><path d="M12.2860625 0.6628125v4.1023125m0 0 2.051125 -2.0511874999999997m-2.051125 2.0511874999999997 -2.0511874999999997 -2.0511874999999997" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path><path d="M8.18375 0.6965625c-0.2249375 -0.022312500000000002 -0.453 -0.03375 -0.6837500000000001 -0.03375C3.7239375000000003 0.6628125 0.6628125 3.7239375000000003 0.6628125 7.5c0 1.2453125 0.3329375 2.4129375 0.9146875 3.418625l-0.572875 3.0767499999999997 3.0767499999999997 -0.572875c1.0056875 0.58175 2.1733125 0.9146875 3.418625 0.9146875 3.7760624999999997 0 6.837187500000001 -3.061125 6.837187500000001 -6.837187500000001 0 -0.23074999999999998 -0.011375 -0.45881249999999996 -0.03375 -0.6836875" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></svg></div>
+                <div class="w-[52px] h-[52px] bg-bluebg-200/50 rounded-lg flex justify-center items-center cursor-pointer hover:bg-bluebg-100"><svg viewBox="-0.5 -0.5 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="Twitter--Streamline-Iconoir" height="26" width="26"><desc>Twitter Streamline Icon: https://streamlinehq.com</desc><path d="M14.375 1.8812875s-1.2611875000000001 0.74506875 -1.9625000000000001 0.95625c-0.3764375 -0.43280625000000006 -0.8766875000000001 -0.7395687500000001 -1.433125 -0.8788 -0.5564375 -0.13922500000000002 -1.1421875 -0.10420625 -1.6780624999999998 0.10033125000000001 -0.535875 0.20453749999999998 -0.9960625 0.56871875 -1.3181875 1.0432875 -0.32218749999999996 0.47457499999999997 -0.4908125 1.0366374999999999 -0.483125 1.6101812500000001v0.625c-1.098375 0.028475 -2.1867062500000003 -0.21511875 -3.16811875 -0.7091000000000001C3.3504625 4.1344562499999995 2.50645 3.40543125 1.875 2.5062875c0 0 -2.5 5.625025 3.125 8.125025 -1.2871687500000002 0.8736875 -2.820525 1.3118125 -4.375 1.25 5.625 3.125 12.5 0 12.5 -7.187525 -0.0005625 -0.17409375000000002 -0.017312499999999998 -0.34775625 -0.05 -0.5187499999999999 0.637875 -0.6290687500000001 1.3 -2.29375 1.3 -2.29375Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></svg></div>
+            </div>
+        </div>
+    </div>
+     <div class="w-full bg-bluebg-100">
+        <div class="w-full bg-bluebg-100 flex flex-col justify-center items-center gap-y-[71px]">
+        <div class="bg-bluebg-100 sm:w-full lg:w-[83%] mt-10 flex lg:flex-row sm:flex-col justify-between items-center ">
+                <ul class=" w-[550px] h-[222px] grid grid-cols-2 mb-8 text-white xl:text-lg lg:text-md font-normal">
+                    <li class="text-2xl font-semibold"><a href="#">راهنمای مشتریان</a></li>
+                    <li class="text-2xl font-semibold"><a href="#">راهنمای مشتریان</a></li>
+                    <li><a href="#">پاسخ به پرسش های متداول</a></li>  
+                    <li><a href="#">پاسخ به پرسش های متداول</a></li>  
+                    <li><a href="#">روش های ارسال کالا</a></li>
+                    <li><a href="#">روش های ارسال کالا</a></li>
+                    <li><a href="#">روش های پرداخت</a></li>        
+                    <li><a href="#">روش های پرداخت</a></li>
+                    <li><a href="#">قوانین و مقررات</a></li> 
+                    <li><a href="#">قوانین و مقررات</a></li>
+                </ul>
+                <div class="flex items-center justify-center gap-x-6">
+                    <div class="w-[172px] h-[197px]  bg-white rounded-lg flex justify-center items-center lg:scale-75 xl:scale-100 sm:scale-50">
+                        <img src="images/f-1.png" alt="zarinpal" class="w-[147px] h-[197px]  rounded-lg">
+                    </div>
+                    <img src="images/f-2.png" alt="eetemad" class="w-[147px] h-[197px] rounded-lg lg:scale-75 xl:scale-100 sm:scale-50">
+                </div>
+        </div>
+        <div class="w-[83%] flex justify-center items-center bg-bluebg-500/50 mb-10 backdrop-opacity-30 py-[10px] rounded-md">
+            <p class="text-white font-semibold text-2xl ">کلیه حقوق متعلق به این وبسایت می باشد.</p>
+        </div>
+       </div>
+   </div>
+  </footer>
+</body>
+</html>
